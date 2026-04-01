@@ -1,0 +1,38 @@
+[05:13:43] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.2
+[05:13:43] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- java 21
+	- minecraft 1.21.1
+[05:13:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-ohio/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[05:13:49] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:13:51] [main/INFO]: Loaded 1290 recipes
+[05:13:51] [main/INFO]: Loaded 1399 advancements
+[05:13:52] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[05:13:52] [Server thread/INFO]: Loading properties
+[05:13:52] [Server thread/INFO]: Default game type: SURVIVAL
+[05:13:52] [Server thread/ERROR]: Encountered an unexpected exception
+java.net.UnknownHostException: 1422.3573: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1568) ~[?:?]
+	at knot/net.minecraft.class_3176.method_3823(class_3176.java:143) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:664) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[05:13:52] [Server thread/ERROR]: This crash report has been saved to: /workspaces/server-ohio/servidor_minecraft/crash-reports/crash-2026-04-01_05.13.52-server.txt
+[05:13:52] [Server thread/INFO]: Stopping server
+[05:13:52] [Server thread/INFO]: Saving worlds
+[05:13:52] [Server thread/ERROR]: Exception stopping the server
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_3218.method_8621()" because "$$5" is null
+	at knot/net.minecraft.server.MinecraftServer.method_3723(MinecraftServer.java:561) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_3782(MinecraftServer.java:620) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3176.method_3782(class_3176.java:561) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:735) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
